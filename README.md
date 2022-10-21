@@ -1,6 +1,14 @@
 ### Hi there 👋
-I'm Juan Camilo Ramirez Tabares, a simple guy from Colombia with many goals to achieve 🌟🇨🇴
+# I'm Juan Camilo Ramirez Tabares, a simple guy from Colombia with many goals to achieve 🌟🇨🇴
 
+# Become a spectator of my process as a future software engineer 💻
+
+``` java
+class AboutMe extends MySelf {
+
+}
+
+```
 
 <!--
 **JCamiloRamirezTabares/JCamiloRamirezTabares** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
