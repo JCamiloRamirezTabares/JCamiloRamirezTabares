@@ -13,8 +13,7 @@ class AboutMe extends MySelf {
     "Lover of nature and everything related to it 🌱🌿🍀",
     "I'm starting to practice swimming and I love it 🌊",
     "In my free time I like to listen to music, watch some videos and learn about anything"
-    "I love to challenge myself, is very rewarding to learn from these. 
-     Although it takes me a while to achieve it 😅"
+    "I love to challenge myself, is very rewarding to learn from these. Although it takes me a while to achieve it 😅"
   }
   
   public AboutMe(){
