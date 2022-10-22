@@ -6,19 +6,37 @@
 ``` java
 class AboutMe extends MySelf {
 
-  public final String name = "Juan Camilo Ramirez Tabares";
-  public final String state = "Student at ICESI University since 2020";
+  private final String name = "Juan Camilo Ramirez Tabares";
+  private final String state = "Student at ICESI University since 2020";
   
-  protected final String[] interests = {
+  private final String[] interests = {
     "Lover of nature and everything related to it 🌱🌿🍀",
     "I'm starting to practice swimming and I love it 🌊",
     "In my free time I like to listen to music, watch some videos and learn about anything"
     "I love to challenge myself, is very rewarding to learn from these. Although it takes me a while to achieve it 😅"
   }
   
+  private final String[] education = {
+    "Universidad ICESI [2020 - Currently] - Software System Engineering",
+    "Servicio Nacional de Aprendizaje (SENA)[2018 - 2019] - Systems Technician" 
+  }
+  
   public AboutMe(){
     super();
   }
+  
+  public String name(){
+    return this.name;
+  }
+  public String state(){
+    return this.state;
+  }
+  public String[] interests(){
+    return this.interests;
+  }
+  public String[] education(){
+    return this.education;
+  }  
 }
 
 ```
