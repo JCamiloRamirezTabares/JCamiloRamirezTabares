@@ -12,7 +12,7 @@ class AboutMe extends MySelf {
   private final String[] INTERESTS = {
     "Lover of nature and everything related to it 🌱🌿🍀",
     "I'm starting to practice swimming and I love it 🌊",
-    "In my free time I like to listen to music, watch some videos and learn about anything",
+    "In my free time I like to listen to music, play video games, watch some Animes and learn about anything",
     "I love to challenge myself, is very rewarding to learn from these. Although it takes me a while to achieve it 😅"
   }
   
