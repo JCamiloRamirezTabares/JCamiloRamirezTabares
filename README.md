@@ -25,16 +25,16 @@ class AboutMe extends MySelf {
     super();
   }
   
-  public String name(){
+  public String getName(){
     return this.name;
   }
-  public String state(){
+  public String getState(){
     return this.state;
   }
-  public String[] interests(){
+  public String[] getInterests(){
     return this.interests;
   }
-  public String[] education(){
+  public String[] getEducation(){
     return this.education;
   }  
 }
