@@ -1,11 +1,25 @@
-### Hi there 👋
-# I'm Juan Camilo Ramirez Tabares, a simple guy from Colombia with many goals to achieve 🌟🇨🇴
+# Hi there 👋
+### I'm Juan Camilo Ramirez Tabares, a simple guy from Colombia with many goals to achieve 🌟🇨🇴
 
-# Become a spectator of my process as a future software engineer 💻
+### Become a spectator of my process as a future software engineer 💻
 
 ``` java
 class AboutMe extends MySelf {
 
+  public final String name = "Juan Camilo Ramirez Tabares";
+  public final String state = "Student at ICESI University since 2020";
+  
+  protected final String[] interests = {
+    "Lover of nature and everything related to it 🌱🌿🍀",
+    "I'm starting to practice swimming and I love it 🌊",
+    "In my free time I like to listen to music, watch some videos and learn about anything"
+    "I love to challenge myself, is very rewarding to learn from these. 
+     Although it takes me a while to achieve it 😅"
+  }
+  
+  public AboutMe(){
+    super();
+  }
 }
 
 ```
