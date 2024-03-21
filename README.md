@@ -1,56 +1,27 @@
-# Hi there 👋
-### I'm Juan Camilo Ramirez Tabares, a simple guy from Colombia with big goals to achieve 🌟🇨🇴
+# Hi there!!!
+### My name is Juan Camilo, Systems Engineering student from Colombia 
 
-### Become a spectator of my process as a future software engineer 💻
+### Be part of my process as an Engineer 💻
 
-``` java
-class AboutMe extends MySelf {
+``` python
+class AboutMe(Myself):
 
-  private final String NAME = "Juan Camilo Ramirez Tabares";
-  private final String STATE = "Student at ICESI University since 2020";
-  
-  private final String[] INTERESTS = {
-    "Lover of nature and everything related to it 🌱🌿🍀",
-    "I'm starting to practice swimming and I love it 🌊",
-    "In my free time I like to listen to music, play video games, watch some Animes and learn about anything",
-    "I love to challenge myself, is very rewarding to learn from these. Although it takes me a while to achieve it 😅"
-  }
-  
-  private final String[] EDUCATION = {
-    "Universidad ICESI [2020 - Currently] - Software System Engineering",
-    "Servicio Nacional de Aprendizaje (SENA)[2018 - 2019] - Systems Technician" 
-  }
-  
-  private final String[] GOALS = {
-    "Study in ICESI ✅",
-    "Improve my English - IN PROCESS",
-    "Graduate as a Systems Engineer",
-    "Learn French, Chinese and Japanese",
-    "Contribute new knowledge to the world",
-    "And mainly, Live a happy life 💖"
-  }
-  
-  public AboutMe(){
-    super();
-  }
-  
-  public String getName(){
-    return this.NAME;
-  }
-  public String getState(){
-    return this.STATE;
-  }
-  public String[] getInterests(){
-    return this.INTERESTS;
-  }
-  public String[] getEducation(){
-    return this.EDUCATION;
-  }  
-  public String[] getGoals(){
-    return this.GOALS;
-  } 
-}
+    def __init__(self) -> None:
+        super().__init__()
+        self.name = "Juan Camilo Ramirez Tabares"
+        self.status = "STUDENT"
+        self.interests = ["Videogames development", "Depth learning"]
+        self.knowledge = {
+          programming_languages: [
+            "Java - Advanced",
+            "Javascript - Advanced", 
+            "Pyhton - Intermedium", 
+            "Kotlin - Begineer"
+          ]
+        }
 
+    def getKnowledge(self):
+      return self.knowledge
 ```
 
 <!--
